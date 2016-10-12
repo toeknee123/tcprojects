@@ -1,4 +1,16 @@
 body {  
-	background-color:e6f7ff;
+	background-color: #e6f2ff;
+	font-family: "Arial";
 }
 
+/* removes default padding on the whole page */
+ul {
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	width: 150px;
+}
+
+li {
+	display: inline
+}
