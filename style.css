@@ -23,6 +23,7 @@ li a {
 	text-align: center;
 	padding: 5px 5px;
 	text-decoration: none;
+	opacity: .25;
 }
 
 /* clear stuff */
