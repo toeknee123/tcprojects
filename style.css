@@ -5,12 +5,22 @@ body {
 
 /* removes default padding on the whole page */
 ul {
-	list-style-type:none;
+	list-style-type: none;
 	margin: 0;
-	padding: 0;
-	width: 150px;
+	padding: 12px;
+	float: right;
+	background-color: #ffffff;
 }
 
+/* style to make navigation bar horizontal */
 li {
 	display: inline
+}
+
+/*styling of the text inside the boxes */
+li a {
+	display:block
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
 }
