@@ -10,6 +10,7 @@ ul {
 	padding: 10px;
 	background-color: #e6f2ff;
 	float: right;
+    margin-bottom: 25px;
 }
 
 /* style to make navigation bar horizontal */
@@ -21,7 +22,7 @@ li {
 li a {
 	display:block
 	text-align: center;
-	padding: 5px 5px;
+	padding: 100px 2px;
 	text-decoration: none;
 	opacity: .25;
 }
@@ -30,3 +31,10 @@ li a {
 .div1 {
 	clear: right;
 }
+
+h1 {
+    font-weight: bold;
+	line-height: .5em;
+}
+
+
