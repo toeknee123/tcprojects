@@ -1,28 +1,23 @@
 
 //array to define the list of restaurants
 var restaurantNames = [
-"naf naf",
+"nafnaf",
 "berghoff cafe",
-"GRK"
-"Brightwok Kitchen",
-"FireFin Poké Shop",
-"Saucy Porka",
-"Oasis Cafe",
+"GRK",
 "Pastoral",
+"berghoff cafe",
+"Saucy Porka",
 "Spotted Monkey",
+"Oasis Cafe",
+"FireFin Poké Shop",
 ];
 
-//randomizes var restaurantNames
-var rand = restaurantNames[
-Math.floor(Math.random() * restaurantNames.length)
-];
+var rand = restaurantNames[Math.floor(Math.random() * restaurantNames.length)];
 
-//function used to populate answer after button is clicked.
+//function used to populate answer after button is clicked
 function myRestaurant () {
 	document.getElementById("restaurant").innerHTML = rand;
 }
-
-
 
 //function to calulate stuff
 function myFunction () {
