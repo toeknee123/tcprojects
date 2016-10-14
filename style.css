@@ -9,14 +9,14 @@ ul {
 	margin: 0;
 	padding: 10px;
 	background-color: #e6f2ff;
-	float: right;
     margin-bottom: 25px;
+    height: 40px;
 }
 
-/* style to make navigation bar horizontal */
-li {
-	display: inline
-}
+/* float left and right for nav bar */
+li {float: right;}
+
+li2 {float: left;}
 
 /*styling of the text inside the boxes */
 li a {
@@ -27,7 +27,7 @@ li a {
 	opacity: .25;
 }
 
-/* clear stuff */
+/* clear stuff nav bar with body */
 .div1 {
 	clear: right;
 }
@@ -35,6 +35,8 @@ li a {
 h1 {
     font-weight: bold;
 	line-height: .5em;
+	margin: 0;
+	padding: 17px;
 }
 
 
