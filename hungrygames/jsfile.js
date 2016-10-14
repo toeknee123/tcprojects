@@ -12,10 +12,9 @@ var restaurantNames = [
 "FireFin Poké Shop",
 ];
 
-var rand = restaurantNames[Math.floor(Math.random() * restaurantNames.length)];
-
 //function used to populate answer after button is clicked
 function myRestaurant () {
+	var rand = restaurantNames[Math.floor(Math.random() * restaurantNames.length)];
 	document.getElementById("restaurant").innerHTML = rand;
 }
 
