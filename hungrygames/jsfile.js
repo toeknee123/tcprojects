@@ -1,7 +1,7 @@
 
 //array to define the list of restaurants
 var restaurantNames = [
-"nafnaf",
+"www.nafnaf.com",
 "berghoff cafe",
 "GRK",
 "Pastoral",
@@ -10,7 +10,12 @@ var restaurantNames = [
 "Spotted Monkey",
 "Oasis Cafe",
 "FireFin Poké Shop",
-];
+];   
+	var Links = [
+"http://www.nafnaf.com",
+
+
+	]
 
 //function used to populate answer after button is clicked
 //var rand is added on the second line to allow refresh when button is clicked. 
