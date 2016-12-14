@@ -1,11 +1,21 @@
 <!DOCTYPE html>
-<head>
-</head>
 
 <html>
 <body>
 
 <script type="text/javascript" src="instafeed.js-master/instafeed.min.js"></script>
+
+<script type="text/javascript">
+var feed = new Instafeed({
+  get: 'user',
+  userId: '12384717',
+  clientId: 'dcc96c9f82c64ce38014e5639040f15a',
+  accessToken: '12384717.ba4c844.c1c196dcf5ba4f5290134e0b8f84672a'
+});
+feed.run();
+</script>
+
+<div id="instafeed"></div>
 
 
 </body>
