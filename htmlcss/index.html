@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+body {background-color: blue;}
+h1 {color: white;}	
+
+#p01 {
+   color: orange;
+   border: 1px solid orange;
+   padding: 30px;
+   margin: 50px;
+}
+
+#p02 {
+   color: white;
+   border: 1px solid orange;
+   padding: 75px;
+   margin: 100px;
+}
+
+table {  
+	font-family: helvetica, sans-serif;
+	border-collapse: collapse;
+}
+
+th, td {
+	color: orange;
+	border: 1px blue;
+	padding: 10px;
+}
+
+th {
+    text-align: left;
+    background-color: orange;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+h2 {
+	color: orange;
+}
+
+div.chicago {
+	background-color:white;
+	color: blue;
+	padding: 15px;
+	margin: 50px 0 50px 0;
+	font-family: Tahoma, sans-serif;
+}
+
+body {  
+	font-family: Helvetica, sans-serif;
+}
+
+</style>
+</head>
+<body>
+
+<h1>This is a heading h1</h1>
+<p id="p01">This is a P paragraph with a one pixel solid orange border, 30pixel padding and 50 pixel margin.</p>
+
+<p id="p02"> This is an ID attribute paragraph p01. This has white font. one pixel solid orange border. 75 pixel padding and 100 pixel margin. This box will be more condensed with larger margins around.</p>
+
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td><button type="button"onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button></td>
+    <td><p id="demo"></p></td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+    <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+    <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+
+<p>
+
+<div class="chicago">
+<h2>Chicago</h2>
+<p>Chicago is the Windy City, Second city. Third most populus city in the USA. Beautiful spring, summers and fall. Terrible winters</p>
+</div>
+
+
+</body>
+</html>
