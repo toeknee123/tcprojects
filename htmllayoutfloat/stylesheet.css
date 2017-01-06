@@ -19,16 +19,28 @@ nav {
 	float: left;
 	max-width: 160px;
 	margin: 0;
-	padding: 1em;
+    padding: 5px;
+    width: 200px;
+    height: 400px;
+    background-color: #f1f1f1;
 }
 
 nav ul {
 	list-style-type: none;
-	padding: 0;
+	padding: 0px;
 }
 
 nav ul a {
     text-decoration: none;
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    width: 133px;
+}
+
+nav ul a:hover {
+    background-color: #555;
+    color: white;
 }
 
 article {
